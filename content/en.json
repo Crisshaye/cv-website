@@ -1,0 +1,104 @@
+{
+  "headings": {
+    "experience": "Work Experience",
+    "education": "Education",
+    "skills": "Technical Skills",
+    "projects": "Personal Projects",
+    "contact": "Contact",
+    "about": "About Me"
+  },
+  "hero": {
+    "name": "Cristóbal Haye",
+    "title": "Head of Operations | Data Scientist"
+  },
+  "contact": {
+    "email": "haye.cristobal@gmail.com",
+    "phone": "+569 84299702",
+    "linkedin": "http://www.linkedin.com/in/cristobal-haye-leon",
+    "github": "https://github.com/Crisshaye"
+  },
+  "about": {
+    "bio": "As Head of Operations at GPI Software, I have led the development of three key SaaS platforms, creating mathematical and AI-driven models that optimize personnel assignment and supply chain management for major clients. My work has resulted in significant efficiency gains, including up to a 60% improvement in staff allocation and a 16% reduction in operational costs. With a Master’s in Operations Management and a background in Data Science, I specialize in transforming complex operational challenges into data-driven, automated solutions."
+  },
+  "experience": [
+    {
+      "title": "Head of Operations",
+      "company": "GPI Software (SaaS & BPO)",
+      "period": "Jul 2016 - Present",
+      "platforms": [
+        {
+          "name": "StaffSyncro Platform (personnel assignment)",
+          "description": [
+            "Sole developer of mathematical models for assignment.",
+            "Software currently active, assigning more than 8,000 people.",
+            "Responsible for studies on staff reduction without compromising operations, achieving up to a 16% reduction.",
+            "Improvement in personnel assignment of up to 60%.",
+            "Product Manager for clients such as Forus, Abcdin, and La Polar.",
+            "Leader of the fulfillment team, standardizing requirements and measuring customer response time."
+          ]
+        },
+        {
+          "name": "StaffAttendance Platform (Attendance Control)",
+          "description": [
+            "Part of the team for the comprehensive design of attendance control software.",
+            "Company representative for over 25 clients, managing 4,000 people on SaaS.",
+            "Design and partial development of additional reporting for the Labor Directorate."
+          ]
+        },
+        {
+          "name": "SupplySyncro Platform (Supply Chain Management)",
+          "description": [
+            "Manager of the development of software for planning the procurement of over 10,000 SKUs.",
+            "Sole developer of mathematical models using AI combined with conventional models for sales forecasting.",
+            "Coordinator of the application design and development, supported by client feedback."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Desafío Latam",
+      "degree": "Data Science, Big Data & Neural Networks - Python",
+      "period": "Jul 2019 - Feb 2020"
+    },
+    {
+      "institution": "Universidad de Chile",
+      "degree": "Master’s in Operations Management (c)",
+      "period": "Jul 2014 - Jan 2017"
+    },
+    {
+      "institution": "Universidad de Chile",
+      "degree": "Industrial Engineering",
+      "period": "Mar 2009 - Apr 2016"
+    }
+  ],
+  "skills": [
+    "Python",
+    "Google App Script",
+    "SQL",
+    "Google Cloud",
+    "AWS",
+    "Pyspark",
+    "Excel",
+    "Google Sheets",
+    "Trello",
+    "GitHub",
+    "Notion",
+    "Firebase",
+    "Slack"
+  ],
+  "projects": [
+    {
+      "name": "Video Analysis",
+      "description": "Software that extracts information from security cameras for reporting."
+    }
+  ],
+  "interests": [
+    "Running (21k 1:39)",
+    "Chess (1400)",
+    "Mountaineering",
+    "Diverse reading",
+    "Cycling"
+  ]
+}

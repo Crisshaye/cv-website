@@ -1,0 +1,104 @@
+{
+  "headings": {
+    "experience": "Experiencia Laboral",
+    "education": "Educación",
+    "skills": "Habilidades Técnicas",
+    "projects": "Proyectos Personales",
+    "contact": "Contacto",
+    "about": "Sobre Mí"
+  },
+  "hero": {
+    "name": "Cristóbal Haye",
+    "title": "Head of Operations | Científico de Datos"
+  },
+  "contact": {
+    "email": "haye.cristobal@gmail.com",
+    "phone": "+569 84299702",
+    "linkedin": "http://www.linkedin.com/in/cristobal-haye-leon",
+    "github": "https://github.com/Crisshaye"
+  },
+  "about": {
+    "bio": "Como Head of Operations en GPI Software, he liderado el desarrollo de tres plataformas SaaS clave, creando modelos matemáticos y de inteligencia artificial que optimizan la asignación de personal y la gestión de la cadena de suministro para importantes clientes. Mi trabajo ha resultado en mejoras significativas de eficiencia, incluyendo hasta un 60% de mejora en la asignación de personal y una reducción del 16% en los costos operativos. Con un Magíster en Gestión de Operaciones y formación en Ciencia de Datos, me especializo en transformar complejos desafíos operativos en soluciones automatizadas y basadas en datos."
+  },
+  "experience": [
+    {
+      "title": "Head of Operations",
+      "company": "GPI Software (Desarrollo de Plataformas SaaS y BPO)",
+      "period": "Jul 2016 - Presente",
+      "platforms": [
+        {
+          "name": "Plataforma StaffSyncro (eficiencia de asignación de personal)",
+          "description": [
+            "Único desarrollador de modelos matemáticos para asignación.",
+            "Software actualmente activo asignando a más de 8.000 personas.",
+            "Responsable de estudios en reducción de personal sin perjuicio de la operación en hasta un 16%.",
+            "Mejora en asignación del personal de hasta un 60%.",
+            "Product manager para clientes como Forus, Abcdin y La Polar.",
+            "Líder de equipo de fullfilment, estandarizando requerimientos y midiendo el tiempo de respuesta a cliente."
+          ]
+        },
+        {
+          "name": "Plataforma StaffAttendance (Sistema de control de asistencia)",
+          "description": [
+            "Parte del equipo para diseño integral de software de control de asistencia.",
+            "Representante de la empresa con la contraparte de más de 25 clientes, 4.000 personas SaaS.",
+            "Diseño y parcial elaboración de reportería adicional a requerimientos de la dirección del trabajo."
+          ]
+        },
+        {
+          "name": "Plataforma Supplysyncro (Gestión de cadena de suministros)",
+          "description": [
+            "Gestor del desarrollo de software activo planificando las compras de más de 10.000 SKUs.",
+            "Único desarrollador de modelos matemáticos usando IA combinada con modelos convencionales para pronósticos de ventas.",
+            "Coordinador del diseño y desarrollo de la aplicación, apoyado por feedback de clientes."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Desafío Latam",
+      "degree": "Data Science, Big Data y Redes Neuronales - Python",
+      "period": "Jul 2019 - Feb 2020"
+    },
+    {
+      "institution": "Universidad de Chile",
+      "degree": "Magister Gestión de Operaciones (c)",
+      "period": "Jul 2016 - Ene 2017"
+    },
+    {
+      "institution": "Universidad de Chile",
+      "degree": "Titulado de Ingeniería Civil Industrial",
+      "period": "Mar 2009 - Abr 2016"
+    }
+  ],
+  "skills": [
+    "Python",
+    "Google App Script",
+    "SQL",
+    "Google Cloud",
+    "AWS",
+    "Pyspark",
+    "Excel",
+    "Google Sheets",
+    "Trello",
+    "GitHub",
+    "Notion",
+    "Firebase",
+    "Slack"
+  ],
+  "projects": [
+    {
+      "name": "Video Analysis",
+      "description": "Software que extrae información de cámaras de seguridad para reportería."
+    }
+  ],
+  "interests": [
+    "Runner (21k 1:39)",
+    "Ajedrez (1400)",
+    "Montañismo",
+    "Lecturas varías",
+    "Ciclismo"
+  ]
+}
