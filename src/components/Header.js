@@ -1,25 +1,29 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { Link } from 'gatsby'; // 1. Importa el componente Link de Gatsby
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as GatsbyLink } from 'gatsby';
 import { LanguageContext } from '../context/LanguageContext';
 
-// --- Estilos ---
-// (Se añade un nuevo estilo para el enlace del portfolio)
-
 const Nav = styled.nav`
-  background-color: #ffffff;
-  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 `;
 
-const Title = styled.h1`
-  font-size: 1.5rem;
+const Title = styled(GatsbyLink)`
+  font-size: 1.25rem;
   font-weight: bold;
   color: #1E40AF;
+  text-decoration: none;
 `;
 
 const NavLinks = styled.div`
@@ -28,22 +32,14 @@ const NavLinks = styled.div`
   gap: 1.5rem;
 `;
 
-// Nuevo estilo para el enlace de texto
-const PortfolioLink = styled(Link)`
+const NavLink = styled(ScrollLink)`
   font-weight: 600;
   color: #374151;
   text-decoration: none;
+  cursor: pointer;
   transition: color 0.2s;
 
-  &:hover {
-    color: #1E40AF;
-  }
-`;
-
-const SocialLink = styled.a`
-  color: #374151;
-  font-size: 1.75rem;
-  &:hover {
+  &:hover, &.active {
     color: #1E40AF;
   }
 `;
@@ -61,38 +57,32 @@ const LangButton = styled.button`
   padding: 0.25rem 0.5rem;
   cursor: pointer;
   font-weight: bold;
-  transition: all 0.2s;
-
-  &:hover {
-    background-color: #e5e7eb;
-    color: black;
-  }
 `;
 
-// --- Componente Header ---
-
 const Header = () => {
-  const { language, changeLanguage } = useContext(LanguageContext);
+  const { language, changeLanguage, content } = useContext(LanguageContext);
+
+  if (!content || !content.headings) {
+    return null; // Don't render header if content is not loaded
+  }
 
   return (
     <Nav>
-      <Title>Cristóbal</Title>
+      <Title to="/">Cristóbal Haye</Title>
       <NavLinks>
-        {/* 2. Añade el enlace al Portfolio aquí */}
-        <PortfolioLink to="/portfolio">Portfolio</PortfolioLink>
-        <SocialLink href="https://github.com/Crisshaye" target="_blank" rel="noopener noreferrer">
-          <FaGithub />
-        </SocialLink>
-        <SocialLink href="https://www.linkedin.com/in/cristobal-haye-leon" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin />
-        </SocialLink>
+        <NavLink to="experience" smooth={true} duration={500} spy={true} activeClass="active">
+          {content.headings.experience}
+        </NavLink>
+        <NavLink to="education-skills" smooth={true} duration={500} spy={true} activeClass="active">
+          {content.headings.education_skills || 'Education / Skills'}
+        </NavLink>
+        <NavLink to="projects" smooth={true} duration={500} spy={true} activeClass="active">
+          {content.headings.projects}
+        </NavLink>
+        <GatsbyLink to="/portfolio" style={{fontWeight: 600, color: '#374151', textDecoration: 'none'}}>Portfolio</GatsbyLink>
         <LangSelector>
-          <LangButton onClick={() => changeLanguage('en')} isActive={language === 'en'}>
-            EN
-          </LangButton>
-          <LangButton onClick={() => changeLanguage('es')} isActive={language === 'es'}>
-            ES
-          </LangButton>
+          <LangButton onClick={() => changeLanguage('en')} isActive={language === 'en'}>EN</LangButton>
+          <LangButton onClick={() => changeLanguage('es')} isActive={language === 'es'}>ES</LangButton>
         </LangSelector>
       </NavLinks>
     </Nav>

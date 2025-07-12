@@ -5,7 +5,33 @@
     "skills": "Technical Skills",
     "projects": "Personal Projects",
     "contact": "Contact",
-    "about": "About Me"
+    "about": "About Me",
+    "download_cv": "Download CV",
+    "education_skills": "Education / Skills",
+    "portfolio_title": "Portfolio",
+    "portfolio_subtitle": "Software I've Worked On"
+  },
+  "portfolio_projects": {
+    "staffsyncro": {
+      "title": "Software BPO/SaaS StaffSyncro",
+      "type": "BPO/SaaS Platform",
+      "description": "A platform designed to efficiently manage and assign personnel, optimizing shift coverage and operational needs through advanced mathematical models. It helps businesses reduce staffing costs while maintaining service levels."
+    },
+    "staffattendance": {
+      "title": "StaffAttendance",
+      "type": "SaaS Platform",
+      "description": "A comprehensive SaaS platform for attendance control, certified by the Chilean Labor Directorate (DT). It allows for precise management of employee attendance, schedules, and compliance with labor regulations."
+    },
+    "supplysyncro": {
+      "title": "SupplySyncro",
+      "type": "SaaS for Forecast and Replenishment",
+      "description": "A specialized software for supply chain management that uses sales forecasts to plan and automate the procurement and replenishment of thousands of SKUs, ensuring optimal stock levels."
+    },
+    "video_analysis": {
+      "title": "Video Analysis",
+      "type": "SaaS Software",
+      "description": "A SaaS software designed to retrieve critical information from security cameras and display it clearly for reporting, analysis, and decision-making."
+    }
   },
   "hero": {
     "name": "Cristóbal Haye",
@@ -18,7 +44,13 @@
     "github": "https://github.com/Crisshaye"
   },
   "about": {
-    "bio": "As Head of Operations at GPI Software, I have led the development of three key SaaS platforms, creating mathematical and AI-driven models that optimize personnel assignment and supply chain management for major clients. My work has resulted in significant efficiency gains, including up to a 60% improvement in staff allocation and a 16% reduction in operational costs. With a Master’s in Operations Management and a background in Data Science, I specialize in transforming complex operational challenges into data-driven, automated solutions."
+    "bio": [
+      "As *Head of Operations*, I have participated in all stages of *SaaS and BPO software development*, from conceptual design to usability.",
+      "Achieved measurable results including up to a *16% staff reduction* without operational impact and up to a *60% improvement* in personnel assignment.",
+      "*Product Manager* for multi-platform services for clients like Forus, La Polar, and Abcdin.",
+      "*Leader of the fulfillment* team, with a focus on continuous training and process standardization.",
+      "Sole developer of the *mathematical and AI models* for assignment and forecasting."
+    ]
   },
   "experience": [
     {

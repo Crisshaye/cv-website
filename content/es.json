@@ -1,15 +1,41 @@
 {
-  "headings": {
+"headings": {
     "experience": "Experiencia Laboral",
     "education": "Educación",
     "skills": "Habilidades Técnicas",
     "projects": "Proyectos Personales",
     "contact": "Contacto",
-    "about": "Sobre Mí"
+    "about": "Sobre Mí",
+    "download_cv": "Descargar CV",
+    "education_skills": "Educación / Habilidades",
+    "portfolio_title": "Portafolio",
+    "portfolio_subtitle": "Software en los que he trabajado"
+  },
+  "portfolio_projects": {
+    "staffsyncro": {
+      "title": "Software BPO/SaaS StaffSyncro",
+      "type": "Plataforma BPO/SaaS",
+      "description": "Plataforma diseñada para gestionar y asignar personal de manera eficiente, optimizando la cobertura de turnos y las necesidades operativas mediante modelos matemáticos avanzados. Ayuda a las empresas a reducir costos de personal manteniendo los niveles de servicio."
+    },
+    "staffattendance": {
+      "title": "StaffAttendance",
+      "type": "Plataforma SaaS",
+      "description": "Una completa plataforma SaaS para el control de asistencia, certificada por la Dirección del Trabajo (DT) de Chile. Permite una gestión precisa de la asistencia de los empleados, horarios y cumplimiento de la normativa laboral."
+    },
+    "supplysyncro": {
+      "title": "SupplySyncro",
+      "type": "SaaS para Pronóstico y Reabastecimiento",
+      "description": "Un software especializado para la gestión de la cadena de suministro que utiliza pronósticos de ventas para planificar y automatizar la compra y el reabastecimiento de miles de SKUs, asegurando niveles de stock óptimos."
+    },
+    "video_analysis": {
+      "title": "Análisis de Video",
+      "type": "Software SaaS",
+      "description": "Un software SaaS diseñado para extraer información crítica de cámaras de seguridad y mostrarla de forma clara para la elaboración de informes, análisis y toma de decisiones."
+    }
   },
   "hero": {
     "name": "Cristóbal Haye",
-    "title": "Head of Operations | Científico de Datos"
+    "title": "Head of Operations | Científico de Datos | Ingeniero Civil Industrial"
   },
   "contact": {
     "email": "haye.cristobal@gmail.com",
@@ -18,7 +44,13 @@
     "github": "https://github.com/Crisshaye"
   },
   "about": {
-    "bio": "Como Head of Operations en GPI Software, he liderado el desarrollo de tres plataformas SaaS clave, creando modelos matemáticos y de inteligencia artificial que optimizan la asignación de personal y la gestión de la cadena de suministro para importantes clientes. Mi trabajo ha resultado en mejoras significativas de eficiencia, incluyendo hasta un 60% de mejora en la asignación de personal y una reducción del 16% en los costos operativos. Con un Magíster en Gestión de Operaciones y formación en Ciencia de Datos, me especializo en transformar complejos desafíos operativos en soluciones automatizadas y basadas en datos."
+    "bio": [
+      "Como *Head of Operations*, he participado en todas las etapas del desarrollo de software *SaaS y BPO*, desde el desarrollo conceptual hasta la usabilidad.",
+      "Resultados medibles de hasta un *16% de reducción de personal* sin perjuicio de la operación y mejoras en asignación del personal de hasta un *60%*.",
+      "*Product Manager* de servicios multiplataforma para clientes como Forus, La Polar y Abcdin.",
+      "Líder de equipo de *fulfillment*, con capacitación continua y estandarización de procesos.",
+      "Único desarrollador de los *modelos matemáticos* y de IA para asignación y pronósticos."
+    ]
   },
   "experience": [
     {

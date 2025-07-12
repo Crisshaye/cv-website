@@ -1,13 +1,19 @@
 import React from 'react';
 import Header from './Header';
-import { LanguageProvider } from '../context/LanguageContext'; // <-- 1. Importa el proveedor
+import { LanguageProvider } from '../context/LanguageContext';
+import styled from 'styled-components';
+
+const MainContent = styled.main`
+  padding-top: 60px; // Adjustment for the fixed header
+`;
 
 const Layout = ({ children }) => {
   return (
-    // 2. Envuelve todo con el LanguageProvider
     <LanguageProvider>
       <Header />
-      <main>{children}</main>
+      <MainContent>
+        {children}
+      </MainContent>
     </LanguageProvider>
   );
 };
